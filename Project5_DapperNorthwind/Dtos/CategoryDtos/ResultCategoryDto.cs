@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Project5_DapperNorthwind.Dtos.CategoryDtos
 {
-    public class ResultCategoryDto // Bütün listeleme işlemleri için kullanıcagımız kategori sınıfı
+    public class ResultCategoryDto 
     {
-        // Listeleme için kullanıcagımız Dto'muz
+        
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }
         public string Description { get; set; }
